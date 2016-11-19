@@ -1,0 +1,96 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 2800 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=7208, tid=0x0000000000002994
+#
+# JRE version:  (8.0_92-b14) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.92-b14 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread is native thread
+
+Stack: [0x00000000027e0000,0x00000000028e0000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x000000013f670000 - 0x000000013f6a7000 	C:\Program Files\Java\jdk1.8.0_92\bin\java.exe
+0x00000000775b0000 - 0x000000007775a000 	C:\windows\SYSTEM32\ntdll.dll
+0x0000000077390000 - 0x00000000774af000 	C:\windows\system32\kernel32.dll
+0x000007fefd370000 - 0x000007fefd3db000 	C:\windows\system32\KERNELBASE.dll
+0x000007feff370000 - 0x000007feff44b000 	C:\windows\system32\ADVAPI32.dll
+0x000007fefec90000 - 0x000007fefed2f000 	C:\windows\system32\msvcrt.dll
+0x000007fefd730000 - 0x000007fefd74f000 	C:\windows\SYSTEM32\sechost.dll
+0x000007feff180000 - 0x000007feff2ad000 	C:\windows\system32\RPCRT4.dll
+0x00000000774b0000 - 0x00000000775aa000 	C:\windows\system32\USER32.dll
+0x000007feff080000 - 0x000007feff0e7000 	C:\windows\system32\GDI32.dll
+0x000007feff680000 - 0x000007feff68e000 	C:\windows\system32\LPK.dll
+0x000007fefe930000 - 0x000007fefe9fa000 	C:\windows\system32\USP10.dll
+0x000007fefbb10000 - 0x000007fefbd04000 	C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+0x000007fefe7d0000 - 0x000007fefe841000 	C:\windows\system32\SHLWAPI.dll
+0x000007feff050000 - 0x000007feff07e000 	C:\windows\system32\IMM32.DLL
+0x000007fefef40000 - 0x000007feff049000 	C:\windows\system32\MSCTF.dll
+0x000000006ca90000 - 0x000000006cb62000 	C:\Program Files\Java\jdk1.8.0_92\jre\bin\msvcr100.dll
+0x000000006f790000 - 0x0000000070026000 	C:\Program Files\Java\jdk1.8.0_92\jre\bin\server\jvm.dll
+0x000007fefbaf0000 - 0x000007fefbaf9000 	C:\windows\system32\WSOCK32.dll
+0x000007fefebe0000 - 0x000007fefec2d000 	C:\windows\system32\WS2_32.dll
+0x000007fefda30000 - 0x000007fefda38000 	C:\windows\system32\NSI.dll
+0x000007fefd4e0000 - 0x000007fefd51b000 	C:\windows\system32\WINMM.dll
+0x000007fefc3e0000 - 0x000007fefc3ec000 	C:\windows\system32\VERSION.dll
+0x0000000077770000 - 0x0000000077777000 	C:\windows\system32\PSAPI.DLL
+0x00000000724d0000 - 0x00000000724df000 	C:\Program Files\Java\jdk1.8.0_92\jre\bin\verify.dll
+0x0000000072370000 - 0x0000000072399000 	C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.dll
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true -Xmx1024M -Dfile.encoding=GBK -Duser.country=CN -Duser.language=zh -Duser.variant 
+java_command: com.android.dx.command.Main --dex --force-jumbo --num-threads=4 --multi-dex --output E:\my\MyApplication2\app_new\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_9393359a32cee7d765596d1712fbbc4060c2dff0 E:\my\MyApplication2\app_new\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar
+java_class_path (initial): D:\Androidss\sdk\sdk\build-tools\24.0.1\lib\dx.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 (6.1.7601.19135)
+
+CPU:total 4 
+
+Memory: 4k page, physical 4133888k(549924k free), swap 5180628k(5076k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.92-b14) for windows-amd64 JRE (1.8.0_92-b14), built on Mar 31 2016 21:03:04 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Wed Sep 28 13:38:37 2016
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

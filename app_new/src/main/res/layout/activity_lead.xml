@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLead">
+
+    <!-- ViewPager是 v4包里，包名要写全 -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/lead_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center_horizontal"
+        >
+        <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/lead_iv1"
+        android:src="@mipmap/aaaa"/>
+        <ImageView
+            android:id="@+id/lead_iv2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/aaaa" />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/lead_iv3"
+            android:src="@mipmap/aaaa"/>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/lead_iv4"
+            android:src="@mipmap/aaaa"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
